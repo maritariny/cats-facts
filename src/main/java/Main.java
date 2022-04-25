@@ -27,7 +27,7 @@ public class Main {
                 //.setUserAgent("Test")
                 .setDefaultRequestConfig(RequestConfig.custom()
                         .setConnectTimeout(5000) // максимальное время ожидания подключения к серверу
-                        .setSocketTimeout(300000) // максимальное время ожидания получения данных
+                        .setSocketTimeout(30000) // максимальное время ожидания получения данных
                         .setRedirectsEnabled(false) // возможность следовать редиректу в ответе
                         .build())
                 .build();
